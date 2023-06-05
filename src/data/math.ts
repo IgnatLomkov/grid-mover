@@ -1,0 +1,1 @@
+export const SUM_OF_ADJACENT_ANGLES_IN_DEGREE = 180

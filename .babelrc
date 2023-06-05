@@ -1,0 +1,14 @@
+{
+  "presets": ["@babel/typescript"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ".",
+        "alias": {
+          "^\\@/(.+)": "./src/\\1"
+        }
+      }
+    ]
+  ]
+}
